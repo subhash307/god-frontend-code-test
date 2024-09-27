@@ -1,0 +1,52 @@
+/* body {
+  background: steelblue;
+  color: white;
+} */
+
+
+/* .container{
+  overflow: hidden;
+} */
+
+
+.car-card {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.car-cards-container {
+  display: flex;
+  width: 100%; /* 100% width of all the cars */
+  transition: transform 0.5s ease-in-out; /* Smooth sliding transition */
+}
+
+.container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.card-wrapper {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.car-card {
+  /* min-width: 70%;  Show 20-30% of the next card */
+ /* margin-right: 20px; /* Space between cards */
+}
+/* 
+@media (min-width: 769px) {
+  .car-card {
+    min-width: 25%; 
+  }
+}
+*/
+
+@media (max-width: 480px) {
+  .car-card {
+    min-width: 90%; 
+  }
+  
+} 
